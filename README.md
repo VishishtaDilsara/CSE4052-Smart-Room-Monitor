@@ -177,10 +177,10 @@ The SoftAP credentials are hard-coded in the source and published in this README
 
 | Stage | Written | Verified on hardware |
 |-------|:-------:|:--------------------:|
-| 1 – Basic | ✅ | ☐ |
-| 2 – FreeRTOS | ✅ | ☐ |
-| 3 – Interrupts & timer | ✅ | ☐ |
-| 4 – Config portal | ✅ | ☐ |
+| 1 – Basic | ✅ | ✅ |
+| 2 – FreeRTOS | ✅ | ✅ |
+| 3 – Interrupts & timer | ✅ | ✅ |
+| 4 – Config portal | ✅ | ✅ |
 
 Tick the boxes, and add screenshots and known issues, once each stage has been tested on the physical device. The source alone does not prove that the access point, web page, WebSocket link and saving all work.
 
@@ -194,15 +194,13 @@ Tick the boxes, and add screenshots and known issues, once each stage has been t
 Smart-Room-Monitor/
 ├── README.md
 ├── firmware/
-│   └── SmartRoomMonitor/
-│       └── SmartRoomMonitor.ino   # chosen stage, renamed
+│   └── SmartRoomMonitor.ino
 ├── development/
 │   ├── 1.cpp
 │   ├── 2.cpp
 │   ├── 3.cpp
 │   └── 4.cpp
-├── docs/
-└── screenshots/
+
 ```
 
 ---
